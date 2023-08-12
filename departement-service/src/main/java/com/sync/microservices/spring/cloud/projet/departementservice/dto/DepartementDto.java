@@ -1,14 +1,11 @@
 package com.sync.microservices.spring.cloud.projet.departementservice.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-@Getter
-@Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
+@Builder
 public class DepartementDto {
 
     private Integer id;

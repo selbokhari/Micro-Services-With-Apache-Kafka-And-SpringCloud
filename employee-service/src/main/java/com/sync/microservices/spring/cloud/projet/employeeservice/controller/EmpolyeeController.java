@@ -40,9 +40,9 @@ public class EmpolyeeController {
     * Créer un Employee avec son departement.
     *
     * */
-    @PostMapping(name = "avec-departement", consumes = {MediaType.APPLICATION_JSON_VALUE})
+    @PostMapping(path ="avec-departement", consumes = {MediaType.APPLICATION_JSON_VALUE})
     ResponseEntity<EmployeeDto> creerEmloyeeEtDepartement(@Valid @RequestBody EmployeeDto employeeDto) {
-        return ResponseEntity.ok(employeeService.creerEmployee(employeeDto));
+        return ResponseEntity.ok(employeeService.creerEmployeeAvecDepartement(employeeDto));
     }
 
 }

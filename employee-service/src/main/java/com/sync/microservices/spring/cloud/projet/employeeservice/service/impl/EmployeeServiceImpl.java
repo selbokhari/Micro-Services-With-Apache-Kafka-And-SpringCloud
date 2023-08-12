@@ -1,6 +1,6 @@
 package com.sync.microservices.spring.cloud.projet.employeeservice.service.impl;
 
-import com.sync.microservices.spring.cloud.projet.employeeservice.dto.DepartementDto;
+import com.sync.microservices.spring.cloud.projet.departementservice.dto.DepartementDto;
 import com.sync.microservices.spring.cloud.projet.employeeservice.dto.EmployeeDto;
 import com.sync.microservices.spring.cloud.projet.employeeservice.entity.EmployeeEntity;
 import com.sync.microservices.spring.cloud.projet.employeeservice.kafka.KafkaDepartementProducer;
@@ -8,7 +8,6 @@ import com.sync.microservices.spring.cloud.projet.employeeservice.mapper.Employe
 import com.sync.microservices.spring.cloud.projet.employeeservice.repository.EmpolyeeRepository;
 import com.sync.microservices.spring.cloud.projet.employeeservice.service.DepartementClient;
 import com.sync.microservices.spring.cloud.projet.employeeservice.service.EmployeeService;
-import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.retry.annotation.Retry;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

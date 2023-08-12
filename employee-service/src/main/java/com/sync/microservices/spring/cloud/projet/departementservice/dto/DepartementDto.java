@@ -1,4 +1,4 @@
-package com.sync.microservices.spring.cloud.projet.employeeservice.dto;
+package com.sync.microservices.spring.cloud.projet.departementservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

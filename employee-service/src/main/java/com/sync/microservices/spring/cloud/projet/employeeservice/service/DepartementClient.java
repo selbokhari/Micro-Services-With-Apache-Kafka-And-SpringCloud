@@ -1,6 +1,6 @@
 package com.sync.microservices.spring.cloud.projet.employeeservice.service;
 
-import com.sync.microservices.spring.cloud.projet.employeeservice.dto.DepartementDto;
+import com.sync.microservices.spring.cloud.projet.departementservice.dto.DepartementDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

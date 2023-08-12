@@ -1,8 +1,6 @@
 package com.sync.microservices.spring.cloud.projet.employeeservice.service;
 
-import com.sync.microservices.spring.cloud.projet.employeeservice.dto.DepartementDto;
 import com.sync.microservices.spring.cloud.projet.employeeservice.dto.EmployeeDto;
-import org.springframework.http.ResponseEntity;
 
 public interface EmployeeService {
 

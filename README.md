@@ -32,7 +32,7 @@ Le projet intègre Spring Cloud en mettant en œuvre les patterns suivants :
 
 ## Implémentations
 
-Le projet inclut les implémentations suivantes :
+Le projet inclut aussi les implémentations suivantes :
 
 - **Spring Data :** Utilisé pour interagir avec la base de données.
 - **Validation des DTO :** Utilisation de la bibliothèque Jakarta Validation.

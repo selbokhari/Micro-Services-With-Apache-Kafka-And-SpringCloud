@@ -18,7 +18,7 @@ Ce projet implémente deux microservices : `User-MS` et `Departement-MS`.
 - **Synchrone :** À travers des appels REST en utilisant OpenFeign.
 - **Asynchrone :** Via le Message Broker Apache Kafka.
 
-## Patterns Spring Cloud
+## Patterns Microservices / Spring Cloud
 
 Le projet intègre Spring Cloud en mettant en œuvre les patterns suivants :
 
